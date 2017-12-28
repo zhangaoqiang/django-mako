@@ -10,7 +10,7 @@ get_template() and optionally from_string().
 
 import tempfile
 
-from django.core.urlresolvers import reverse
+from django.core.urls import reverse
 from django.contrib.staticfiles.templatetags.staticfiles import static
 from django.template import TemplateDoesNotExist, TemplateSyntaxError
 from django.template.backends.base import BaseEngine
